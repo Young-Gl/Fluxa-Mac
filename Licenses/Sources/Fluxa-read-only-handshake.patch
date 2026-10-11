@@ -1,0 +1,22 @@
+--- a/src/lockdown.c
++++ b/src/lockdown.c
+@@ -730,7 +730,8 @@
+ 		/* attempt pairing */
+ 		free(host_id);
+ 		host_id = NULL;
+-		ret = lockdownd_pair(client_loc, NULL);
++		/* Fluxa 2026-10-11: disable automatic pairing during battery reads. */
++		ret = LOCKDOWN_E_INVALID_HOST_ID;
+ 	}
+ 
+ 	plist_free(pair_record);
+@@ -744,7 +745,8 @@
+ 		if (LOCKDOWN_E_INVALID_HOST_ID == ret) {
+ 			free(host_id);
+ 			host_id = NULL;
+-			ret = lockdownd_pair(client_loc, NULL);
++			/* Fluxa 2026-10-11: disable automatic pairing during battery reads. */
++			ret = LOCKDOWN_E_INVALID_HOST_ID;
+ 			if (LOCKDOWN_E_SUCCESS == ret) {
+ 				ret = lockdownd_validate_pair(client_loc, NULL);
+ 			}
