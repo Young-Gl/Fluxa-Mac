@@ -3,7 +3,7 @@
 <p align="center">Power, quietly in view.</p>
 <p align="center"><a href="https://github.com/Young-Gl/Fluxa-Mac/releases/latest">Download for Mac</a> · English · <a href="README.zh-CN.md">简体中文</a></p>
 
-Fluxa puts live power in the menu bar and device batteries on your desktop. Click the wattage to see charger input, system consumption and the power going into—or out of—your battery. Feedback and suggestions are welcome at yanghanchao2002@outlook.com.
+Fluxa puts live power in the menu bar and device batteries on your desktop. Click the wattage to see charger input, system consumption and the power going into—or out of—your battery. Feedback and suggestions are welcome in [Issues](https://github.com/Young-Gl/Fluxa-Mac/issues).
 
 <p align="center"><img src="docs/images/power-en.png" width="400" alt="Fluxa power panel"> <img src="docs/images/details-en.png" width="400" alt="Available component power readings"></p>
 
