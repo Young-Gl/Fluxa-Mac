@@ -3,7 +3,7 @@
 <p align="center">功率与电量，安静呈现。</p>
 <p align="center"><a href="https://github.com/Young-Gl/Fluxa-Mac/releases/latest">下载 Mac 版本</a> · <a href="README.md">English</a> · 简体中文</p>
 
-Fluxa 是一款原生 Mac 功率与电量工具。菜单栏显示实时瓦数，点开查看充电器输入、整机消耗和电池净充电；桌面小组件把常用设备的电量放在一起。反馈与建议可发送至 yanghanchao2002@outlook.com。
+Fluxa 是一款原生 Mac 功率与电量工具。菜单栏显示实时瓦数，点开查看充电器输入、整机消耗和电池净充电；桌面小组件把常用设备的电量放在一起。反馈与建议请在 [Issues](https://github.com/Young-Gl/Fluxa-Mac/issues) 中提出。
 
 <p align="center"><img src="docs/images/power-zh.png" width="400" alt="Fluxa 功率面板"> <img src="docs/images/details-zh.png" width="400" alt="可读取的分项功率"></p>
 
